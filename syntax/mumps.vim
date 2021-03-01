@@ -4,7 +4,7 @@
 
 syntax region mumpsComment start=';' end='\n'
 syntax match mumpsNumber '\d'
-syntax region mumpsOperator d i s q QUIT
+syntax keyword mumpsOperator d i s q QUIT
 syntax match mumpsIdentifier '$$'
 
 " highlight default link mumpsComment Comment
